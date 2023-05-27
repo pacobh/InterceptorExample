@@ -1,0 +1,21 @@
+<resources>
+    <!-- Loading -->
+    <string name="loading_text">Cargando...</string>
+
+    <!-- Generic error -->
+    <string name="generic_error_popup_title">Ocurrió un error</string>
+    <string name="generic_error_popup_message">En estos momentos no es posible realizar la operación. Inténtalo de nuevo más tarde.</string>
+    <string name="generic_error_code_error">(Error: %1$s)</string>
+    <string name="generic_error_popup_button_try_again">Intentar de nuevo</string>
+    <string name="generic_error_popup_button_accept">Aceptar</string>
+    <string name="generic_error_popup_hiring">Información no disponible</string>
+
+    <!-- Popup Login -->
+    <string name="error_data_title">Ha ocurrido un problema</string>
+    <string name="error_data_explain">Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="error_data_button">Intentar de nuevo</string>
+    <string name="button_go_to_live_data_example">Ejemplo LiveData</string>
+    <string name="button_go_to_channel_example">Ejemplo Channel</string>
+    <string name="button_refresh_pokemon">Refrescar Pokemon</string>
+    <string name="button_load">Cargar</string>
+</resources>

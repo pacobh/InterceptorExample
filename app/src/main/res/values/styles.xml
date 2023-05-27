@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--BASIC-->
+    <style name="openSansRegular">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="openSansBold">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="openSansSemiBold">
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="openSansLight">
+        <item name="android:fontFamily">@font/opensans_light</item>
+    </style>
+
+    <!--GENERAL-->
+    <!--Buttons-->
+    <style name="normalButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="minHeight">48dp</item>
+    </style>
+
+
+    <style name="smallButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="minHeight">32dp</item>
+    </style>
+
+    <style name="greyButton" parent="normalButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/color_states_grey_button</item>
+        <item name="cornerRadius">3dp</item>
+    </style>
+
+    <!--Loading-->
+    <style name="textLoading" parent="openSansLight">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grey374147</item>
+    </style>
+
+
+    <!-- PANTALLAS -->
+    <!--Header-->
+    <style name="headerTitle" parent="openSansRegular">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/grey374147</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--Popups-->
+    <style name="textTitlePopup" parent="openSansLight">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grey374147</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+
+    <style name="textSubtitlePopup" parent="openSansRegular">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey374147</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+    </style>
+
+    <style name="textCodeErrorPopup" parent="openSansRegular">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey606e76</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+</resources>
