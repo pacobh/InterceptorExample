@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>message_user</key>
+        <value>Mensaje de prueba</value>
+    </entry>
+
+    <entry>
+        <key>min_version_app</key>
+        <value>1.0.0</value>
+    </entry>
+
+</defaultsMap>
