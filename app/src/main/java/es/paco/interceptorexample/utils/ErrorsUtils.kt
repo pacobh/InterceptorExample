@@ -34,9 +34,9 @@ class ErrorsUtils {
         fun generateErrorModelFromThrowable(throwable: Throwable): es.paco.interceptorexample.data.domain.model.error.ErrorModel {
             Log.e(TAG, "l> ${throwable.message}")
             return es.paco.interceptorexample.data.domain.model.error.ErrorModel(
-                error = "unknow",
+                error = "Ups! se ha producido un error",
                 errorCode = "",
-                message = "unknow"
+                message = throwable.localizedMessage.toString()
             )
         }
 
