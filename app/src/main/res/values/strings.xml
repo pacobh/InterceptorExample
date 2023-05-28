@@ -18,4 +18,7 @@
     <string name="button_go_to_channel_example">Ejemplo Channel</string>
     <string name="button_refresh_pokemon">Refrescar Pokemon</string>
     <string name="button_load">Cargar</string>
+
+    <string name="error_connectivity_message">Esta aplicación requiere el uso de datos. Por favor, habilita la conexión a una red WIFI segura o habilita la conexión de datos en tu dispositivo para poder acceder.</string>
+
 </resources>
